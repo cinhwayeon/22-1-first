@@ -6,6 +6,9 @@
 	<title>나는 바보다.</title>
 	<style type="text/css">
 		body{margin: 0;}
+		nav{background: hotpink; height: 44px;}
+		nav ul li a{display: block; color: white;}
+
 		header{padding: 50px;}
 		#grad{height: 300px;
 			background-color: hotpink;
@@ -27,15 +30,37 @@
 		.image{background: hotpink; text-align: center; margin-top: 800px;}
 		.middle{width: 50%; margin: 0; margin-bottom: 0;}
 	.second{line-height: 60px;}
-	section{text-align: center; margin-top: 500px; font-size: 40px; font-weight: bold; line-height: 20px; margin-bottom: 300px;}
+	.jjok{text-align: center; margin-top: 500px; font-size: 40px; font-weight: bold; line-height: 20px; margin-bottom: 300px;}
 	.orange{background: hotpink; text-align: center;}
 	span{color: lightgrey;}
 	.final{text-align: center; margin-top: 2200px; font-size: 40px; font-weight: bold; line-height: 20px; margin-bottom: 300px;}
 	.end{text-align: center; font-size: 40px; font-weight: bold; line-height: 20px; margin-bottom: 300px; color: deeppink;}
+
+	ul{margin: 0px; margin-left: 0px; margin-right: 40px; width: 600px;height: 44px; background: hotpink; float: right;}
+	li{ list-style-type: none; width: 33.3%;
+	   float: left; height: 44px; text-align: center; line-height: 44px;}
+	.white{text-align: center;}
+
 	</style>
 
 </head>
 <body>
+<nav id="navigation">
+
+	</div>
+	<ul>
+		<li>
+			<a href="#a">2020</a>
+		</li>
+		<li>
+			<a href="#b">2021</a>
+		</li>
+		<li>
+			<a href="#c">2022</a>
+		</li>
+	</ul>
+</nav>
+
 	<div id="grad"></div>
 	<header>
 		<h1>나는 바보다.</h1>
@@ -44,9 +69,13 @@
 		</div>
 	</header>
 	<img src="boom.png" class="top">
+
+
+	<section class="1" id="a">
 	<div class="left"><p>2020년</p>
 				<p>7월</p></div>
-	<div class="right"><p>어느 무더운 여름날</p> 
+	<div class="right">
+				<p>어느 무더운 여름날</p> 
 				<p>사랑하는 나의 조카가 태어났다.</p>
 				<img src="1.jpg">
 				<p>아차차.. 이 사진이 아니라</p>
@@ -54,13 +83,18 @@
 				<p>우리엄마와 닮은</p>
 				<p>우리집 유전자가 한가득</p>
 				<p>담겨진 아이가 태어났다.</p>
-			</div>
+	</div>
 	<div class="image"><img src="3.jpg" class="middle"></div>
 	<div class="right">
 		<img src="4.jpg">
 		<p class="second">하지만, 어린 조카를 돌보는 것은 마음만큼 쉽지 않다.
 		조심스러움에 나는 모든 행동들이 로봇처럼 어색하였다.</p>
 	</div>
+	</section>
+
+
+
+	<section class="2" id="b">
 	<div class="left"><p>2021년</p></div>
 	<div class="right">
 		<p>서열은 바뀌었다.</p>
@@ -69,13 +103,16 @@
 		<img src="5.jpg">
 		<p class="second">이렇게 사랑스러운 얼굴을 하고선 말이다..</p>
 		</div>
-	<section>
+	<div class="jjok">
 	<p>이로써,</p>
 	<p>나는 우리집 서열 최하위가 되었다.</p>
 	<div class="orange"><img src="7.jpg" class="middle"></div>
 	<p>하지만, 난 이 모습들도 사랑스럽다.</p>
 	<p>사빈아 유랑해!</p>
+	</div>
 	</section>
+
+	<section class="3" id="c">
 	<div class="left"><p>2022년</p></div>
 	<div class="right">
 		<p>형님은 형님답게</p>
@@ -89,7 +126,8 @@
 		<img src="10.jpg">
 		<p class="second">한살 더 먹은 만큼 깨우친 것도있다. 바로 '선물'이라는 것이다. 이제는 너무나 좋아한다. 선물을...</p>
 		</div>
-	
+	</section>
+
 	<div class="final"><p>그러므로, 나는 열심히 벌어야한다. 돈을....</p>
 	<p>나의 조카에게 맛있는 음식과 선물을 주려면</p>
 	<p>나는 되어야한다.</p>
@@ -99,7 +137,11 @@
 	<p>아니라고 해도 좋아 머리 잡아당여도 좋아</p>
 	<p>이모랑 계속 놀아줘 S2</p></div>
 	</div>
-
+	<footer class="white"><a href="#navigation">
+		<p> copyright 2022.cinhwayeon</p>
+		<p> all rights reserved. </p>
+	</a>
+	</footer>
 
 </body>
 </html>
